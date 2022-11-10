@@ -1,0 +1,18 @@
+{
+  "sidebar": {
+    "home": "Home",
+    "aboutme": "About me",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "iamlucas": {
+    "iam": "I'm"
+  },
+  "about": {
+    "coderhouse": "bla bla {linkcoder} 2022 - Present"
+  },
+  "404": {
+    "notfound": "Not Found",
+    "404description": "The resource requested could not be found on this server." 
+  }
+}

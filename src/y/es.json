@@ -1,0 +1,18 @@
+{
+  "sidebar": {
+    "home": "Casa",
+    "aboutme": "Sobre mi",
+    "skills": "Conocimientos",
+    "contact": "Contacto"
+  },
+  "iamlucas": {
+    "iam": "Soy"
+  },
+  "about": {
+    "coderhouse": "bla bla {linkcoder}         2022 - Present"
+  },
+  "404": {
+    "notfound": "Servidor no encontrado",
+    "404description": "Bla bla" 
+  }
+}
