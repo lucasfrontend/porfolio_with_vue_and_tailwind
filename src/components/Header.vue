@@ -1,31 +1,31 @@
 <template>
-  <div class="flex justify-end">
+  <div class="flex justify-end relative m-3">
   <div class="my-3 xl:w-96">
     <select id="locale" v-model="$i18n.locale"
-      class="form-select appearance-none
+      class=" form-select appearance-none
       block
       w-full
       px-3
       py-1.5
       text-base
       font-normal
-      text-gray-700
-      bg-white bg-clip-padding bg-no-repeat
-      border border-solid border-gray-300
+      text-lightest
+      bg-dark bg-clip-padding bg-no-repeat
+      border border-solid border-light
       rounded
       transition
       ease-in-out
       m-0
-      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+      " aria-label="Default select example">
         <option v-for="locale in locales" 
         :key="locale.key" 
         :value="locale.key"
         > 
-      <span class="">
         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/npm.svg" alt="" class=" w-6 h-6 rounded-full">
         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/npm.svg" class="w-6 h-6 rounded-full m-auto mb-2">
-      </span>
-        {{ locale.label }} </option>
+
+        {{ locale.label }} 
+      </option>
     </select>
   </div>
 </div>
@@ -69,7 +69,14 @@ export default {
       { key: "es", label: "Español"},
       { key: "en", label: "English"}
     ]
-  })
+  })/*
+  watch: {
+    '$i18n.locale': {
+      handle(locale){
+        localStorage.getItem('locale', locale);
+      }
+    }
+  }*/
 
 }
 </script>

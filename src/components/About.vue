@@ -38,7 +38,7 @@
         </div>
       </footer>
     </section>
-    <section class="bg-dark flex min-h-screen justify-center px-4">
+    <section class="bg-light flex min-h-screen justify-center px-4">
       <div class="">
         <div class="mt-12">
           <div>

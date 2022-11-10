@@ -19,6 +19,19 @@ function loadLocaleMessages() {
   return messages
 }
 
+/*
+function getLocale(){
+  const LsLocale = localStorage.getItem('locale');
+  if(LsLocale) return LsLocale;
+  let locale = process.env.VUE_APP_I18N_LOCALE || 'en';
+  const userLocale = navigator?.languages?.[0] || navigator?.languages;
+  locale = userLocale ? userLocale.split('-')?.[0] : locale;
+
+
+  return 
+}
+*/
+
 export default createI18n({
   locale: process.env.VUE_APP_I18N_LOCALE || 'en',
   fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'en',

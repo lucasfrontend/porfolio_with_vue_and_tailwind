@@ -80,8 +80,7 @@
     background: linear-gradient(82deg, rgba(35, 255, 229, 0.509) 0%, rgb(22, 20, 26) 100%);
   }
   .overlay.open {
-    @apply opacity-100;
-    z-index: 100;
+    @apply opacity-100 z-10;
   }
   @screen md {
     .overlay {

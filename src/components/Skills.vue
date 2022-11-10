@@ -4,9 +4,9 @@
             <h1 class="pl-2 text-2xl font-semibold text-white tracking-wider hover:underline">Titulo</h1>
             <h2 class="pr-8 pt-4 text-xs text-lightest uppercase tracking-wider hover:underline mb-3">Skills</h2>
         </div>
-        <div class="w-full m-auto flex flex-wrap">
+        <div class="w-full m-auto flex flex-wrap justify-center">
           <transition-group appear @before-enter="beforeEnter" @enter="enter">
-            <div class="p-2 w-48"
+            <div class="p-2 w-36"
                 v-for="(skill, index) in skills" 
                 :data-index="index" 
                 :key="skill.id">
@@ -252,18 +252,18 @@ export default {
             {
                 id: 1,
                 /*
-                img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/html-5.svg',
-                */
                 img: 'https://img.shields.io/badge/-HTML5-2E303A?style=for-the-badge&logo=html5',
+                */
+                img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/html-5.svg',
                 title: 'Html5',
                 alt: 'html logo'
             },
             {
                 id: 2,
                 /*
-                img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/css.3.svg',
-                */
                 img: 'https://img.shields.io/badge/-CSS3-2E303A?style=for-the-badge&logo=css3',
+                */
+                img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/css.3.svg',
                 title: 'CSS',
                 alt: 'CSS logo'
             },

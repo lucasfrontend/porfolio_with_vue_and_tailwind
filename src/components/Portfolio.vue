@@ -1,7 +1,7 @@
 <template>
     <section class="text-gray-400 body-font">
         <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-wrap -m-4"> 
+            <div class="flex flex-wrap -m-4 justify-center"> 
                 <transition-group appear @before-enter="beforeEnter" @enter="enter">
                     <div class="p-4 md:w-1/3" 
                         v-for="(work, index) in works" 
