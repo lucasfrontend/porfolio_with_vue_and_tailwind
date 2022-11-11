@@ -1,9 +1,5 @@
 <template>
     <div class="px-6 py-3">
-        <div class="flex items-center justify-between">
-            <h1 class="pl-2 text-2xl font-semibold text-white tracking-wider hover:underline">Titulo</h1>
-            <h2 class="pr-8 pt-4 text-xs text-lightest uppercase tracking-wider hover:underline mb-3">Skills</h2>
-        </div>
         <div class="w-full m-auto flex flex-wrap justify-center">
           <transition-group appear @before-enter="beforeEnter" @enter="enter">
             <div class="p-2 w-36"
@@ -268,6 +264,15 @@ export default {
                 alt: 'CSS logo'
             },
             {
+                id: 2,
+                /*
+                img: 'https://img.shields.io/badge/-CSS3-2E303A?style=for-the-badge&logo=css3',
+                */
+                img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/css.3.svg',
+                title: 'Javascript',
+                alt: 'JS logo'
+            },
+            {
                 id: 3,
                 img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/sass.svg',
                 title:'SASS',
@@ -294,7 +299,7 @@ export default {
             },
             {
                 id: 5,
-                img: '../assets/logo.png',
+                img: 'https://vuejs.org/images/logo.png',
                 title: 'VUEjs',
                 alt: 'VUE logo'
             },
@@ -320,7 +325,7 @@ export default {
                 id: 9,
                 img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/github-octocat.svg',
                 title: 'Github',
-                alt: 'VUE logo'
+                alt: 'Github logo'
             },
             {
                 id: 10,
@@ -339,6 +344,18 @@ export default {
                 img: 'https://static.djangoproject.com/img/logo-django.42234b631760.svg',
                 title: 'Django',
                 alt: 'Django logo'
+            },
+            {
+                id: 13,
+                img: 'https://static.djangoproject.com/img/logo-django.42234b631760.svg',
+                title: 'Express',
+                alt: 'Express logo'
+            },
+            {
+                id: 13,
+                img: 'https://static.djangoproject.com/img/logo-django.42234b631760.svg',
+                title: 'Flutter',
+                alt: 'Flutter logo'
             },
             
             

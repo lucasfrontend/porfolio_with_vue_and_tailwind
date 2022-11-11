@@ -79,3 +79,14 @@ span.cursor.typing {
 
 }
 </style>
+
+<i18n>
+  {
+      "en": {
+          "iam": ['Web Developer', 'App Developer', 'Video Editor']
+      },
+      "es": {
+          "iam": ['Web Developer', 'App Developer', 'Video Editor']
+      }
+  }
+</i18n>

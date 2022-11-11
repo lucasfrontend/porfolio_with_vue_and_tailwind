@@ -1,34 +1,32 @@
 <template>
   <div class="flex justify-end relative m-3">
-  <div class="my-3 xl:w-96">
-    <select id="locale" v-model="$i18n.locale"
-      class=" form-select appearance-none
-      block
-      w-full
-      px-3
-      py-1.5
-      text-base
-      font-normal
-      text-lightest
-      bg-dark bg-clip-padding bg-no-repeat
-      border border-solid border-light
-      rounded
-      transition
-      ease-in-out
-      m-0
-      " aria-label="Default select example">
-        <option v-for="locale in locales" 
-        :key="locale.key" 
-        :value="locale.key"
-        > 
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/npm.svg" alt="" class=" w-6 h-6 rounded-full">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/npm.svg" class="w-6 h-6 rounded-full m-auto mb-2">
-
-        {{ locale.label }} 
-      </option>
-    </select>
+    <div class="px-5 py-4">  
+      <select id="locale" v-model="$i18n.locale"
+        class=" form-select appearance-none
+        flex
+        inline-flex
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-lightest
+        bg-dark bg-clip-padding bg-no-repeat
+        border border-solid border-light
+        rounded
+        transition
+        ease-in-out
+        m-0
+        " aria-label="Default select example">
+          <option v-for="locale in locales" 
+          :key="locale.key" 
+          :value="locale.key"
+          > 
+          {{ locale.label }} 
+          <div class="flag spain"> {{ locale.label }} </div>
+        </option>
+      </select>
+    </div>
   </div>
-</div>
   <!--
   <div class="relative h-64 m-8 overflow-hidden rounded-lg bg-indigo-500">
     <div class="absolute z-30 flex w-full h-full">
@@ -80,3 +78,17 @@ export default {
 
 }
 </script>
+
+<style>
+.flag {
+  min-width: 1.6em;
+  min-height: 1em;
+  background: rgb(240, 7, 7);
+}
+
+.spain {
+  box-shadow: 0 .33em red inset,
+              0 .69em yellow inset,
+              0 1em red inset;
+}
+</style>

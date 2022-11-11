@@ -3,6 +3,7 @@
         <div class="sidebar-space">
         </div>
         <div class="w-full min-h-screen">
+            <HeaderView />
             <Portfolio />
         </div>
 
@@ -11,11 +12,13 @@
   
 <script>
 import Portfolio from '@/components/Portfolio.vue'
-  
+import HeaderView from '@/views/HeaderView.vue'
+
   export default {
     name: 'PortfolioView',
     components: {
-        Portfolio
+        Portfolio,
+        HeaderView
     }
   }
   </script>
