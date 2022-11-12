@@ -1,16 +1,14 @@
 <template>
   <div>
     <SideBarView />   
-    <!--
     <HeaderView />
-    -->
     <RouterView />
   </div>
 </template>
 
 <script>
 import SideBarView from './views/SideBarView.vue';
-//import HeaderView from './views/HeaderView.vue';
+import HeaderView from './views/HeaderView.vue';
 
 export default {
   name: 'App',
@@ -20,9 +18,27 @@ export default {
   },
   components: {
     SideBarView,
-//    HeaderView
+    HeaderView
   },
   methods: {
   }
 }
 </script>
+
+<style>
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Orbitron:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+a {text-decoration: none;}
+* {transition: 0.4s ease;}
+
+body {
+  overflow-x: hidden;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    
+}
+</style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="px-6 py-3">
+    <div class="px-6 py-3 mt-20">
         <div class="w-full m-auto flex flex-wrap justify-center">
           <transition-group appear @before-enter="beforeEnter" @enter="enter">
             <div class="p-2 w-36"
@@ -268,7 +268,7 @@ export default {
                 /*
                 img: 'https://img.shields.io/badge/-CSS3-2E303A?style=for-the-badge&logo=css3',
                 */
-                img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/css.3.svg',
+                img: 'ttp://html5beginners.com/wp-content/uploads/2014/09/java.png',
                 title: 'Javascript',
                 alt: 'JS logo'
             },
@@ -286,7 +286,7 @@ export default {
             },
             {
                 id: 5,
-                img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/sass.svg',
+                img: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
                 title:'BOOSTRAP',
                 alt: 'BOOSTRAP logo'
             },
@@ -353,7 +353,7 @@ export default {
             },
             {
                 id: 13,
-                img: 'https://static.djangoproject.com/img/logo-django.42234b631760.svg',
+                img: 'https://storage.googleapis.com/cms-storage-bucket/6a07d8a62f4308d2b854.svg',
                 title: 'Flutter',
                 alt: 'Flutter logo'
             },

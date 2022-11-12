@@ -10,7 +10,7 @@
         <a href="#" class="px-5 py-6 flex items-center justify-start">
             <img class="mx-auto rounded-full" src="../assets/lucasmardev.png" alt="">
             <!--
-              <h1 class="font-semibold text-white text-4xl">
+              <h1 class="font-medium uppercase text-sm text-white text-4xl">
                 <font-awesome-icon icon="fa-solid fa-chevron-left" class="text-2xl h-8 text-white"/>
                 LM  /
                 <font-awesome-icon icon="fa-solid fa-chevron-right" class="text-2xl h-8 text-white"/>
@@ -19,87 +19,86 @@
         </a>
         <div class="mx-2">
             <router-link class="" to="/">
-                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-semibold text-white hover:bg-light">
+                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
                   <!--  
                   <font-awesome-icon icon="fa-solid fa-home" class="mr-3"/>
                   -->
-                  . Home
+                  Home
                 </button>
             </router-link>
         </div>
         <div class="mx-2">
             <router-link class="" to="/about">
-                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-semibold text-white hover:bg-light">
+                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
                   <!--
                     <font-awesome-icon icon="fa-solid fa-address-card" class="mr-3" />
                   -->
-                  .
+                 
                   {{ $t('sidebar.aboutme')}}
                 </button>
             </router-link>
         </div>
         <div class="mx-2">
             <router-link class="" to="/about">
-                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-semibold text-white hover:bg-light">
+                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
                   <!--  
                   <font-awesome-icon icon="fa-solid fa-list" class="mr-3"/>
                   -->
-                  .
                   Quality
                 </button>
             </router-link>
         </div>
         <div class="mx-2">
             <router-link class="" to="/skills">
-                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-semibold text-white hover:bg-light">
+                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
                   <!--  
                   <font-awesome-icon icon="fa-solid fa-list" class="mr-3"/>
                   -->
-                  .
+                 
                   {{ $t('sidebar.skills')}}
                 </button>
             </router-link>
         </div>
         <div class="mx-2">
             <router-link class="" to="/page2">
-                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-semibold text-white hover:bg-light">
+                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
                   <!--
                   <font-awesome-icon icon="fa-solid fa-list" class="mr-3"/>
                   -->
-                  .
+                 
                   Service
                 </button>
             </router-link>
         </div>
         <div class="mx-2">
             <router-link class="" to="/portfolio">
-                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-semibold text-white hover:bg-light">
+                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
                   <!--  
                   <font-awesome-icon icon="fa-solid fa-list" class="mr-3"/>
                    -->
-                   .
+                  
                    Porfolio
                 </button>
             </router-link>
         </div>
         <div class="mx-2">
             <router-link class="" to="/videos">
-                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-semibold text-white hover:bg-light">
+                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
                   <!--  
                   <font-awesome-icon icon="fa-solid fa-play" class="mr-3" />
                   --> 
-                  .
+                  
                   Videos
                 </button>
             </router-link>
         </div>
         <div class="mx-2 mb-4">
             <router-link class="" to="/contacto">
-                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-semibold text-white hover:bg-light">
+                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
                   <!--  
                   <font-awesome-icon icon="fa-solid fa-list" class="mr-3"/>
                   -->
-                  .
+                  
                   {{ $t('sidebar.contact')}}
                 </button>
             </router-link>
@@ -121,7 +120,7 @@
     </div>
 </template>
 
-<script>
+<script>0
 export default {
   name: 'Sidebar',
   props: ['toggle'],

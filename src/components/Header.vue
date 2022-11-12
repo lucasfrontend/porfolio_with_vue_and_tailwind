@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-end relative m-3">
+  <div class="flex justify-end fixed top-0 right-0">
     <div class="px-5 py-4">  
       <select id="locale" v-model="$i18n.locale"
         class=" form-select appearance-none
@@ -17,13 +17,16 @@
         ease-in-out
         m-0
         " aria-label="Default select example">
+        <option value="es">🇪🇸&emsp;Español</option>
+        <option value="en">FR&emsp; English</option>
+        <!-- 
           <option v-for="locale in locales" 
           :key="locale.key" 
           :value="locale.key"
           > 
-          {{ locale.label }} 
-          <div class="flag spain"> {{ locale.label }} </div>
+          <div class="">ES{{ locale.flag }} - {{ locale.label }} 🇪🇸&emsp;</div>
         </option>
+        -->
       </select>
     </div>
   </div>
@@ -64,7 +67,7 @@ export default {
   name: 'Header',
   data: () => ({
     locales: [
-      { key: "es", label: "Español"},
+      { key: "es", label: "Español", flag: "&emsp;"},
       { key: "en", label: "English"}
     ]
   })/*
@@ -80,6 +83,7 @@ export default {
 </script>
 
 <style>
+
 .flag {
   min-width: 1.6em;
   min-height: 1em;

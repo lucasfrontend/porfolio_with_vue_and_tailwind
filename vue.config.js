@@ -1,6 +1,8 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  publicPath: process.env.NODE_ENV === "production" ? "/porfolio_with_vue_and_tailwind/" : "/",
+  publicPath: process.env.NODE_ENV === "production" 
+  ? "/porfolio_with_vue_and_tailwind/" 
+  : "/",
   transpileDependencies: true,
 
   pluginOptions: {
