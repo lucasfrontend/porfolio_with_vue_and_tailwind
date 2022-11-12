@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full min-h-screen bg-black">
+    <div class="w-full min-h-full bg-black">
       <div class="h-screen overflow-hidden flex items-center justify-center">
         <div class="container">
           <div class="mx-auto w-full md:w-1/2 py-8 px-4">

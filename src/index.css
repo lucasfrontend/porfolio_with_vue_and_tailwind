@@ -3,7 +3,7 @@
 @layer base {
   html,
   body {
-    @apply overflow-x-hidden w-full h-full bg-dark;
+    @apply w-full h-full bg-dark;
   }
   body {
     font-family: "Montserrat", sans-serif;

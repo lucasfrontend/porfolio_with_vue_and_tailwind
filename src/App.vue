@@ -33,7 +33,6 @@ a {text-decoration: none;}
 * {transition: 0.4s ease;}
 
 body {
-  overflow-x: hidden;
     font-family: "Roboto";
     font-size: 14px;
     line-height: 18px;
