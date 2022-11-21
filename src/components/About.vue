@@ -16,7 +16,7 @@
           <div class="flex justify-end">
               <a href="../assets/download/CV_Lucas_Martinez.pdf" download="cv_lucas.pdf" class="bg-gray-300 hover:bg-lightest text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                 <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-                <span>Download CV</span>
+                <span>{{ $t('about.download')}}</span>
               </a>
           </div>
         </div>
@@ -27,23 +27,23 @@
         <div class="mt-14">
           <h3 class="text-white mt-5 text-2xl font-medium tracking-tight lg:p-0 mb-6">Lucas Sebastian Martinez</h3>
           <div class="flex mb-4">
-            <p class="text-white flex">Birthday: <span class="text-lightest text-lightest font-code ml-2">9 July 1986</span></p>
+            <p class="text-white flex">{{ $t('about.birthday')}} <span class="text-lightest text-lightest font-code ml-2">{{ $t('about.july')}}</span></p>
         </div>
         <div class="flex mb-4">
-            <p class="text-white flex">Adress: <span class="text-lightest font-code ml-2">Recoleta, BsAs. ARG</span></p>
+            <p class="text-white flex">{{ $t('about.adress')}}<span class="text-lightest font-code ml-2">Recoleta, BsAs. ARG</span></p>
         </div>
         <div class="flex mb-4">
-            <p class="text-white flex">Freelance: <span class="text-lightest font-code ml-2">Available</span></p>
+            <p class="text-white flex">Freelance: <span class="text-lightest font-code ml-2">{{ $t('about.available')}}</span></p>
         </div>
         <div class="flex mb-4">
-          <p class="text-white flex flex-inline">Phone: <span class="text-lightest font-code ml-2">+054 11 2386 8020 <a href="#" class="cursor-pointer font-code ml-2 text-green"><font-awesome-icon icon="text-green fa-brands fa-whatsapp" /></a></span></p>
+          <p class="text-white flex flex-inline">{{ $t('about.phone')}}<span class="text-lightest font-code ml-2">+054 11 2386 8020 <a href="https://wa.me/541123868020?text=Hi%20Lucas!" class="cursor-pointer font-code ml-2 text-green"><font-awesome-icon icon="text-green fa-brands fa-whatsapp" /></a></span></p>
         </div>
         <div class="flex mb-6">
-          <p class="text-white flex">email: <span><a href="#" class="text-blue-300 cursor-pointer font-code ml-2">lucasfrontenddev@gmail.com</a></span></p>
+          <p class="text-white flex">email: <span><a href="mailto:lucasfrontenddev@gmail.com" class="text-blue-300 cursor-pointer font-code ml-2">lucasfrontenddev@gmail.com</a></span></p>
       </div>
         
         <div> 
-            <h3 class="text-white text-2xl  mb-6">Education</h3>
+            <h3 class="text-white text-2xl  mb-6">{{ $t('about.education')}}</h3>
         </div>
           <ul>
             <li class="relative flex items-baseline gap-6">
@@ -60,7 +60,7 @@
                     2022
                 </p>
                 <p class="text-gray-200 mt-2">FullStack Developer</p>
-                <p class="mt-2 text-gray-300 text-sm mb-20 font-code">Development of complex, dynamic and scalable sites with html, css, sass, js and the React framework. Modern applications with Node.js and MongoDB. Server-side JavaScript development. and SQL and NoSQL databases.</p>
+                <p class="mt-2 text-gray-300 text-sm mb-20 font-code">{{ $t('about.coder')}}</p>
               </div>
             </li>
             <li class="relative flex items-baseline gap-6 pb-5">
@@ -77,7 +77,7 @@
                     2020
                 </p>
                 <p class="text-gray-200 mt-2">Frontend Developer</p>
-                <p class="mt-2 text-gray-300 text-sm mb-20 font-code">Creation of websites with html, css, JS and React. Use of git and github. Class components.</p>
+                <p class="mt-2 text-gray-300 text-sm mb-20 font-code">{{ $t('about.courseit')}}</p>
               </div>
             </li>
             <li class="relative flex items-baseline gap-6 pb-5">
@@ -90,7 +90,7 @@
           </ul>
           <div class="prose-lg text-white">
             <div>
-              <h3 class="text-white text-2xl  mb-6">Expericence</h3>
+              <h3 class="text-white text-2xl  mb-6">{{ $t('about.experience')}}</h3>
             </div>
             <ul>
               <li class="relative flex items-baseline gap-6">
@@ -102,11 +102,11 @@
                 <div>
                   <p class="text-sm text-gray-200">
                     <a href="https://www.argentina.gob.ar/jst" target="_blank">
-                      <span class="text-blue-300">Junta de Seguridad en el Transporte </span>
+                      <span class="text-blue-300">{{ $t('about.jst')}}</span>
                     </a>
                     2019 - Present</p>
-                    <p class="text-gray-200 mt-2">Developer</p>
-                  <p class="mt-2 text-gray-300 text-sm mb-20 font-code">Development of complex, dynamic and scalable sites with html, css, sass, js and the React framework. Modern applications with Node.js and MongoDB. Server-side JavaScript development. and SQL and NoSQL databases.</p>
+                    <p class="text-gray-200 mt-2">{{ $t('about.dev')}}</p>
+                  <p class="mt-2 text-gray-300 text-sm mb-20 font-code">{{ $t('about.jst-description')}}</p>
                 </div>
               </li>
               <li class="relative flex items-baseline gap-6 pb-5">
@@ -118,7 +118,7 @@
                 <div>
                   <p class="text-sm text-gray-200">
                   <a href="https://www.paracaidismochascomus.com/" target="_blank">
-                      <span class="text-blue-300">Paracaidismo Chascomús</span>
+                      <span class="text-blue-300">{{ $t('about.sdch')}}</span>
                     </a>
                     2020
                   </p>

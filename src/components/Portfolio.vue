@@ -34,30 +34,33 @@ export default {
         works: [
             {
                 id: 1,
-                img: 'https://scontent.faep14-3.fna.fbcdn.net/v/t39.30808-1/237101055_10227026837887456_841183135952431021_n.jpg?stp=dst-jpg_p320x320&_nc_cat=111&ccb=1-7&_nc_sid=7206a8&_nc_ohc=L9FT1BeiwRoAX8m8QPg&_nc_ht=scontent.faep14-3.fna&oh=00_AfCoo83efCkEw8-kQv8Ju1kSCroZ4JAA2rjD0XVKjRQpjA&oe=63600BD3',
-                alt: 'alt',
-                title: 'task_title',
-                description: 'lorem ipsu bla bla bla',
-                url: ''
+                img: 'https://i.postimg.cc/VsFLz7JR/jst.png',
+                title: 'gob.ar',
+                alt: '',
+                description: 'Government website in english',
+                url: 'https://so.jst.gob.ar/idiomasJST/'
             },
             {
                 id: 2,
-                img: 'https://scontent.faep14-3.fna.fbcdn.net/v/t39.30808-1/237101055_10227026837887456_841183135952431021_n.jpg?stp=dst-jpg_p320x320&_nc_cat=111&ccb=1-7&_nc_sid=7206a8&_nc_ohc=L9FT1BeiwRoAX8m8QPg&_nc_ht=scontent.faep14-3.fna&oh=00_AfCoo83efCkEw8-kQv8Ju1kSCroZ4JAA2rjD0XVKjRQpjA&oe=63600BD3',
+                img: 'https://i.postimg.cc/8cRvC1gz/seguros.png',
                 title: 'car_insurance',
+                alt: 'Autos',
                 description: 'lorem ipsu bla bla bla',
                 url: 'https://car-insurance-git-main-barriletefeliz.vercel.app/'
             },
             {
                 id: 3,
-                img: 'https://images2.imgbox.com/0d/28/1huIafC8_o.png',
-                title:'Tasks',
+                img: 'https://i.postimg.cc/MZ7fVKgW/tasks.png',
+                alt: '',
+                title:'task_title',
                 description: 'normalize y skeleton',
                 url: 'https://administrador-de-tareas.vercel.app/'
             },
             {
                 id: 4,
-                img: 'https://scontent.faep14-2.fna.fbcdn.net/v/t1.18169-9/13590367_10209590482940113_1374771010547161280_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=w5Ldwb8JdwoAX9-BykC&tn=bKilL2iJ8sFJBF40&_nc_ht=scontent.faep14-2.fna&oh=00_AfAOhIiQjLR13wJ2a4BDooTJcH9ViuW0rlPRx9d-OA-S9A&oe=638202E7',
-                title: 'Cryptos',
+                img: 'https://i.postimg.cc/SsX7mFKn/cryptos.png',
+                alt: '',
+                title: 'cryptos',
                 description: 'lorem ipsu bla bla bla',
                 url: 'https://crypyomonedas.vercel.app/'
             },
@@ -88,11 +91,16 @@ export default {
 {
     "en": {
         "task_title": "Tasks Note",
-        "car_insurance": "Car insurance"
+        "car_insurance": "Car insurance",
+        "cryptos": "Cryptocurrency converter",
+        "gob.ar": "Government page"
+        
     },
     "es": {
         "task_title": "Anotador de tareas",
-        "car_insurance": "Cotizador de Seguros"
+        "car_insurance": "Cotizador de Seguros",
+        "cryptos": "Convertidor de criptomonedas",
+        "gob.ar": "Web del gobierno"
     }
 }
 </i18n>

@@ -9,21 +9,35 @@
     "contact": "Contacto"
   },
   "iamlucas": {
-    "iam": "Soy",
+    "iam": "¡Hola! Soy",
     "array": ["Programador FullStack", "Desarrollador de Apps", "Editor audiovisual"]
   },
   "about": {
-    "idesign": "Diseño y desarrollo software e interfaces de usuario. Busco .... cosas hermosas, me encanta cuando eso ocurre.",
+    "idesign": "Diseño y desarrollo software e interfaces de usuario. Siempre que lo hago entro en flow state, me encanta cuando ocurre.",
+    "download": "Descargar CV",
+    "birthday": "Fecha de nacimiento:",
+    "july": "9 de Julio de 1986",
+    "adress": "Dirección:",
+    "available": "Disponible.",
+    "phone": "Teléfono",
+    "education": "Educación",
+    "coder": "React, nodejs",
+    "courseit": "bla etc etc",
+    "experience": "Experiencia",
+    "jst": "Junta de Seguridad en el Transporte",
+    "dev": "Desarrollador web y de aplicaciones",
+    "jst-description": "Desarrollo y mantenimiento del sistema de gestión de expedientes de la organización. Desarrollo de réplicas de la plataforma del gobierno. Desarrollo de aplicaciones. Etc.",
+    "sdch": "Paracaidismo Chascomús",
     "coderhouse": "bla bla {linkcoder} 2022 - Present"
   },
   "contact": {
-    "contactme": "Contactame",
+    "contactme": "¡Escribime!",
     "yourname": "Nombre",
     "youremail": "Correo",
-    "writeme": "Escribime"
+    "writeme": "Mensaje"
   },
   "404": {
     "notfound": "Servidor no encontrado",
-    "404description": "Bla bla" 
+    "404description": "No se encontró el recurso solicitado." 
   }
 }
