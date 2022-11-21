@@ -1,12 +1,11 @@
 <template>
   <div class="flex flex-col items-center justify-center">  
       <img class="h-auto rounded-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3 p-10 mt-12" alt="" src="../assets/moi_c_est_luca.png" /> 
-      <h1 class="text-white text-4xl pr-4">{{ $t('iamlucas.iam')}}
+      <h1 class="text-white text-4xl pr-4 font-code">{{ $t('iamlucas.iam')}}
       </h1> 
-      <h1 class="text-white text-5xl uppercase" style="line-height: 1.2; font-size: 3.5rem;
-  font-weight: 300; -webkit-text-stroke: 2px #ffffff;">Lucas Mar</h1>
+      <h1 class="text-white text-5xl">Lucas Mar</h1>
       <h1 class="text-white text-3xl"> 
-          <span class="typed-text text-lightest">{{ typeValue }}</span>
+          <span class="font-code typed-text text-lightest">{{ typeValue }}</span>
           <span class="cursor text-white inline-block bg-white ml-1 w-1" :class="{'typing': typeStatus }">&nbsp;</span>
       </h1>
   </div>
@@ -18,7 +17,7 @@ export default {
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ['Web Developer', 'App Developer', 'Video Editor'],
+        typeArray: ["FullStack Developer", "App Developer", "Video Editor"],
         typingSpeed: 100,
         erasingSpeed: 50,
         newTextDelay: 500,
@@ -26,6 +25,7 @@ export default {
         charIndex: 0
       }
     },
+
     methods: {
       typeText() {
         if(this.charIndex < this.typeArray[this.typeArrayIndex].length) {
@@ -64,6 +64,7 @@ export default {
 </script>
 
 <style>
+
 span.cursor.typing {
     animation: none;
 }

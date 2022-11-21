@@ -26,9 +26,10 @@ export default {
 </script>
 
 <style>
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
-@import url(https://fonts.googleapis.com/css?family=Orbitron:700);
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+@import url("https://fonts.googleapis.com/css?family=Orbitron:700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400");
 a {text-decoration: none;}
 * {transition: 0.4s ease;}
 

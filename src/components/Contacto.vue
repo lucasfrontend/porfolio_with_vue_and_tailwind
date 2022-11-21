@@ -6,7 +6,7 @@
             <!-- Title -->
             <div class="flex items-center mb-6">
               <h1 class="text-4xl text-white mr-6">
-                <span>Contact</span> Me
+                <span>{{ $t('contact.contactme')}} </span>
               </h1>
             </div>
 
@@ -15,17 +15,17 @@
               <form action="" method="post">
                 <input
                   type="text"
-                  placeholder="Your name"
+                  :placeholder="$t('contact.yourname')"
                   class="p-4 mb-4 w-full bg-transparent border-grey-light text-white border rounded"
                 />
                 <input
                   type="text"
-                  placeholder="Your email"
+                  :placeholder="$t('contact.youremail')"
                   class="p-4 mb-4 w-full bg-transparent border-grey-light text-white border rounded"
                 />
                 <textarea 
                   type="text area"
-                  placeholder="Write me"
+                  :placeholder="$t('contact.writeme')"
                   class="p-4 mb-4 w-full bg-transparent border-grey-light text-white border rounded"
                 ></textarea>
             </form>

@@ -1,18 +1,18 @@
 <template>
     <div class="px-6 py-3 mt-20">
-        <div class="w-full m-auto flex flex-wrap justify-center">
-          <transition-group appear @before-enter="beforeEnter" @enter="enter">
-            <div class="p-2 w-36"
-                v-for="(skill, index) in skills" 
-                :data-index="index" 
-                :key="skill.id">
-                  <v-card-skill
-                      :img="skill.img"
-                      :alt="skill.alt"
-                      :title="skill.title"
-                  />
-              </div>
-          </transition-group>  
+      <div class="w-full m-auto flex flex-wrap justify-center">
+        <transition-group appear @before-enter="beforeEnter" @enter="enter">
+          <div class="p-2 w-36"
+              v-for="(skill, index) in skills" 
+              :data-index="index" 
+              :key="skill.id">
+                <v-card-skill
+                    :img="skill.img"
+                    :alt="skill.alt"
+                    :title="skill.title"
+                />
+            </div>
+        </transition-group>  
       </div>    
     </div>
 <!-- grilla TODOSSS
@@ -268,7 +268,7 @@ export default {
                 /*
                 img: 'https://img.shields.io/badge/-CSS3-2E303A?style=for-the-badge&logo=css3',
                 */
-                img: 'ttp://html5beginners.com/wp-content/uploads/2014/09/java.png',
+                img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png',
                 title: 'Javascript',
                 alt: 'JS logo'
             },
@@ -344,12 +344,6 @@ export default {
                 img: 'https://static.djangoproject.com/img/logo-django.42234b631760.svg',
                 title: 'Django',
                 alt: 'Django logo'
-            },
-            {
-                id: 13,
-                img: 'https://static.djangoproject.com/img/logo-django.42234b631760.svg',
-                title: 'Express',
-                alt: 'Express logo'
             },
             {
                 id: 13,

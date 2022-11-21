@@ -77,7 +77,7 @@
   }
   .overlay {
     @apply fixed top-0 left-0 z-0 w-full h-full opacity-0;
-    background: linear-gradient(82deg, rgba(35, 255, 229, 0.509) 0%, rgb(22, 20, 26) 100%);
+    background: linear-gradient(82deg, rgba(101, 101, 101, 0.509) 0%, rgb(22, 20, 26) 100%);
   }
   .overlay.open {
     @apply opacity-100 z-10;

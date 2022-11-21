@@ -1,5 +1,5 @@
 <template>
-    <section class="text-gray-400 body-font mt-20">
+    <section class="px-6 py-3 mt-20 text-gray-400 body-font mt-202">
         <div class="container px-5 mx-auto">
             <div class="flex flex-wrap -m-4 justify-center"> 
                 <transition-group appear @before-enter="beforeEnter" @enter="enter">

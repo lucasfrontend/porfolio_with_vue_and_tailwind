@@ -39,16 +39,6 @@
             </router-link>
         </div>
         <div class="mx-2">
-            <router-link class="" to="/about">
-                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
-                  <!--  
-                  <font-awesome-icon icon="fa-solid fa-list" class="mr-3"/>
-                  -->
-                  Quality
-                </button>
-            </router-link>
-        </div>
-        <div class="mx-2">
             <router-link class="" to="/skills">
                 <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
                   <!--  

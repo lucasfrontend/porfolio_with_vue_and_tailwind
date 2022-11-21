@@ -17,8 +17,9 @@
         ease-in-out
         m-0
         " aria-label="Default select example">
-        <option value="es">🇪🇸&emsp;Español</option>
-        <option value="en">FR&emsp; English</option>
+        <option value="es">🇪🇸&emsp; {{ $t('t.en')}} </option>
+        <option value="en">🇺🇸&emsp; {{ $t('t.es')}}</option>
+        <span data-flag="US"></span>
         <!-- 
           <option v-for="locale in locales" 
           :key="locale.key" 

@@ -1,14 +1,26 @@
 {
+  "t": {
+    "en": "Español",
+    "es": "Inglés"
+  },
   "sidebar": {
     "aboutme": "Sobre mi",
     "skills": "Tecnologías",
     "contact": "Contacto"
   },
   "iamlucas": {
-    "iam": "Soy"
+    "iam": "Soy",
+    "array": ["Programador FullStack", "Desarrollador de Apps", "Editor audiovisual"]
   },
   "about": {
+    "idesign": "Diseño y desarrollo software e interfaces de usuario. Busco .... cosas hermosas, me encanta cuando eso ocurre.",
     "coderhouse": "bla bla {linkcoder} 2022 - Present"
+  },
+  "contact": {
+    "contactme": "Contactame",
+    "yourname": "Nombre",
+    "youremail": "Correo",
+    "writeme": "Escribime"
   },
   "404": {
     "notfound": "Servidor no encontrado",
