@@ -49,17 +49,18 @@
                 </button>
             </router-link>
         </div>
+
+        <!--
         <div class="mx-2">
             <router-link class="" to="/page2">
                 <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
-                  <!--
                   <font-awesome-icon icon="fa-solid fa-list" class="mr-3"/>
-                  -->
-                 
+                  
                   Service
                 </button>
-            </router-link>
-        </div>
+              </router-link>
+            </div>
+          -->
         <div class="mx-2">
             <router-link class="" to="/portfolio">
                 <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
@@ -71,17 +72,17 @@
                 </button>
             </router-link>
         </div>
+        <!--  
         <div class="mx-2">
             <router-link class="" to="/videos">
                 <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
-                  <!--  
                   <font-awesome-icon icon="fa-solid fa-play" class="mr-3" />
-                  --> 
                   
                   Videos
                 </button>
-            </router-link>
-        </div>
+              </router-link>
+            </div>
+          --> 
         <div class="mx-2 mb-4">
             <router-link class="" to="/contacto">
                 <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">

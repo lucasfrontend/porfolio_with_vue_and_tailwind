@@ -5,10 +5,6 @@
       <header class="text-white sm:pt-10 md:pt-10 lg:p-6 pt-10">
         <div>
           <h1 class="flex flex-col items-center justify-center text-3xl mt-8">{{ $t('about.idesign')}}</h1>
-          <!--
-          <h1 class="flex flex-col items-center justify-center text-3xl mt-8">I design and develop front&#8209;end web experiences that make things easier. I design & build digital products and user interfaces, I code beautifully simple things, and I love what I do.</h1>
-          <p class="py-8 text-1xl text-lightest">By leveraging API's with React and Typescript</p>
-          -->
         </div>
       </header>
       <footer class="grid grid-col-6 sticky top-0 left-0 pt-6 pr-6">
@@ -104,7 +100,7 @@
                     <a href="https://www.argentina.gob.ar/jst" target="_blank">
                       <span class="text-blue-300">{{ $t('about.jst')}}</span>
                     </a>
-                    2019 - Present</p>
+                    {{ $t('about.2019')}}</p>
                     <p class="text-gray-200 mt-2">{{ $t('about.dev')}}</p>
                   <p class="mt-2 text-gray-300 text-sm mb-20 font-code">{{ $t('about.jst-description')}}</p>
                 </div>
@@ -120,9 +116,10 @@
                   <a href="https://www.paracaidismochascomus.com/" target="_blank">
                       <span class="text-blue-300">{{ $t('about.sdch')}}</span>
                     </a>
-                    2020
+                    {{ $t('about.2020')}}
+                    <p class="text-gray-200 mt-2">{{ $t('about.dev-sdch')}}</p>
                   </p>
-                  <p class="mt-2 text-gray-300 text-sm mb-20 font-code">Creation of websites with html, css, JS and React. Use of git and github. Class components.</p>
+                  <p class="mt-2 text-gray-300 text-sm mb-20 font-code">{{ $t('about.dev-sdch-')}}</p>
                 </div>
               </li>
               <li class="relative flex items-baseline gap-6 pb-5">

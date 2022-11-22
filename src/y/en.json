@@ -13,7 +13,7 @@
     "array": ["FullStack Developer", "App Developer", "Video Editor"]
   },
   "about": {
-    "idesign": "I design and build digital products and user interfaces. Whenever I do it I go into a flow state. I love what I do.",
+    "idesign": "I design and build digital products and user interfaces. I love developing responsive sites and mobile applications.",
     "download": "Download CV",
     "birthday": "Birthday:",
     "july": "9 July 1986",
@@ -21,13 +21,17 @@
     "available": "Available",
     "phone": "Phone",
     "education": "Education",
-    "coder": "Development of complex, dynamic and scalable sites with html, css, sass, js and the React framework. Modern applications with Node.js and MongoDB. Server-side JavaScript development. and SQL and NoSQL databases.",
-    "courseit": "Creation of websites with html, css, JS and React. Use of git and github. Class components.",
+    "coder": "Development of complex, dynamic and scalable sites with Html, CSS, SASS, JS and React framework. Backend development with Nodejs, Npm, Express, Websockets, MongoDB, Mongoose, etc.",
+    "courseit": "Website creation with html, css, JS and React. Using git and github in collaborative projects.",
     "experience": "Experience",
     "jst": "Transport Safety Board",
     "dev": "Web and App developer.",
-    "jst-description": "Development of complex, dynamic and scalable sites with html, css, sass, js and the React framework. Modern applications with Node.js and MongoDB. Server-side JavaScript development. and SQL and NoSQL databases.",
+    "jst-description": "Development and maintenance of the organization's records management system. Localization of the government platform. Application development with Flutter.",
     "sdch": "Skydive Chascomús",
+    "2019": "2019 - Present",
+    "2020": "2020 - Present",
+    "dev-sdch": "Video editor and Web developer",
+    "dev-sdch-": "Animations with After Effects and editing with Premiere Pro of videos for social networks. Web development.",
     "coderhouse": "bla bla {linkcoder} 2022 - Present"
   },
   "contact": {

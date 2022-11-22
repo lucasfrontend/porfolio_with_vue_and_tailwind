@@ -335,21 +335,21 @@ export default {
             },
             {
                 id: 11,
+                img: 'https://storage.googleapis.com/cms-storage-bucket/6a07d8a62f4308d2b854.svg',
+                title: 'Flutter',
+                alt: 'Flutter logo'
+            },
+            {
+                id: 12,
                 img: 'https://cdn.worldvectorlogo.com/logos/python-5.svg',
                 title: 'Python',
                 alt: 'Py logo'
             },
             {
-                id: 12,
+                id: 13,
                 img: 'https://static.djangoproject.com/img/logo-django.42234b631760.svg',
                 title: 'Django',
                 alt: 'Django logo'
-            },
-            {
-                id: 13,
-                img: 'https://storage.googleapis.com/cms-storage-bucket/6a07d8a62f4308d2b854.svg',
-                title: 'Flutter',
-                alt: 'Flutter logo'
             },
             
             

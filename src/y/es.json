@@ -13,7 +13,7 @@
     "array": ["Programador FullStack", "Desarrollador de Apps", "Editor audiovisual"]
   },
   "about": {
-    "idesign": "Diseño y desarrollo software e interfaces de usuario. Siempre que lo hago entro en flow state, me encanta cuando ocurre.",
+    "idesign": "Diseño y desarrollo software e interfaces de usuario. Me encanta programar sitios adaptables y aplicaciones móviles.",
     "download": "Descargar CV",
     "birthday": "Fecha de nacimiento:",
     "july": "9 de Julio de 1986",
@@ -21,13 +21,17 @@
     "available": "Disponible.",
     "phone": "Teléfono",
     "education": "Educación",
-    "coder": "React, nodejs",
-    "courseit": "bla etc etc",
+    "coder": "Programación de sitios responsivos con Html, Css, Preprocesador Sass, Javascript y React. Programación de backend con Nodejs, Npm, Express, Websockets, MongoDB, Mongoose, etc",
+    "courseit": "Creación de sitios web con html, css, JS y React. Uso de git y github en proyectos colaborativos.",
     "experience": "Experiencia",
     "jst": "Junta de Seguridad en el Transporte",
     "dev": "Desarrollador web y de aplicaciones",
-    "jst-description": "Desarrollo y mantenimiento del sistema de gestión de expedientes de la organización. Desarrollo de réplicas de la plataforma del gobierno. Desarrollo de aplicaciones. Etc.",
+    "jst-description": "Desarrollo y mantenimiento del sistema de gestión de expedientes de la organización. Desarrollo de versión bilingüe de la plataforma del gobierno. Desarrollo de aplicaciones con FLutter.",
     "sdch": "Paracaidismo Chascomús",
+    "2019": "2019 - Presente",
+    "2020": "2020 - Presente",
+    "dev-sdch": "Editor audiovisual y Programador web",
+    "dev-sdch-": "Animaciones con After Effects y edición con Premiere Pro de videos para redes sociales. Desarrollo de web sites.",
     "coderhouse": "bla bla {linkcoder} 2022 - Present"
   },
   "contact": {
