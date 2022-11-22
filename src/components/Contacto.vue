@@ -12,7 +12,7 @@
 
             <!-- New Todo Input -->
             <div class="input-wrapper relative">
-              <form action="" method="post">
+              <form action="https://formsubmit.co/lucasfrontenddev@gmail.com" method="post">
                 <input
                   type="text"
                   :placeholder="$t('contact.yourname')"
@@ -28,7 +28,9 @@
                   :placeholder="$t('contact.writeme')"
                   class="p-4 mb-4 w-full bg-transparent border-grey-light text-white border rounded"
                 ></textarea>
-            </form>
+
+                <input class="bg-transparent hover:bg-dark w-full text-white cursor-pointer font-semibold px-4 border border-gray-400 rounded shadow p-4 mb-4 border rounded" type="submit" value="Enviar"/> 
+              </form>
             </div>
           </div>
         </div>
