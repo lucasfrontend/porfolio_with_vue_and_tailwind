@@ -2,7 +2,7 @@
 <div class="mx-auto">
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
     <section class="sm:bg-dark md:bg-dark lg:bg-black xl:bg-black px-4">
-      <header class="text-white sm:pt-10 md:pt-10 lg:p-6 pt-10">
+      <header class="text-white sm:pt-12 md:pt-12 lg:p-6 pt-12">
         <div>
           <h1 class="flex flex-col items-center justify-center text-3xl mt-8">{{ $t('about.idesign')}}</h1>
         </div>

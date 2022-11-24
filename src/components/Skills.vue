@@ -1,20 +1,25 @@
 <template>
     <div class="px-6 py-3 mt-20">
-      <HeaderBg />
-      <div class="w-full m-auto flex flex-wrap justify-center">
-        <transition-group appear @before-enter="beforeEnter" @enter="enter">
-          <div class="p-2 w-36"
-              v-for="(skill, index) in skills" 
-              :data-index="index" 
-              :key="skill.id">
-                <v-card-skill
-                    :img="skill.img"
-                    :alt="skill.alt"
-                    :title="skill.title"
-                />
-            </div>
-        </transition-group>  
-      </div>    
+        <HeaderBg />
+        <div class="container flex items-center justify-center">
+            <h1 class="pl-2 text-2xl font-semibold text-white tracking-wider mb-8 flex justifiy-center">
+                Porfolio
+            </h1>
+        </div>
+        <div class="w-full m-auto flex flex-wrap justify-center">
+            <transition-group appear @before-enter="beforeEnter" @enter="enter">
+            <div class="p-2 w-36"
+                v-for="(skill, index) in skills" 
+                :data-index="index" 
+                :key="skill.id">
+                    <v-card-skill
+                        :img="skill.img"
+                        :alt="skill.alt"
+                        :title="skill.title"
+                    />
+                </div>
+            </transition-group>  
+        </div>    
     </div>
 </template>
 

@@ -1,6 +1,11 @@
 <template>
     <section class="px-6 py-3 mt-20 text-gray-400 body-font mt-202">
         <div class="container px-5 mx-auto">
+            <div class="flex items-center justify-center">
+                    <h1 class="pl-2 text-2xl font-semibold text-white tracking-wider mb-8">
+                        Porfolio
+                    </h1>
+                </div>
             <div class="flex flex-wrap -m-4 justify-center"> 
                 <transition-group appear @before-enter="beforeEnter" @enter="enter">
                     <div class="p-4 md:w-1/3" 

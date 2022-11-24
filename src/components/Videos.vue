@@ -1,22 +1,56 @@
 <template>
-    <div class="px-6 py-3">
-        <div class="flex items-center justify-between">
-            <h1 class="pl-2 text-2xl font-semibold text-white tracking-wider hover:underline">Titulo</h1>
-            <h2 class="pr-8 pt-4 text-xs text-lightest uppercase tracking-wider hover:underline mb-3">Seee all</h2>
-        </div>
-        <div class="w-full flex flex-wrap">
-            <div class="p-2 w-48">
-                <div class="bg-light w-full h-auto p-5 rounded-lg shadow-md">
-                    <img src="../assets/tasks.png" alt="" class="h-auto w-full shadow mb-2">
-                    <h1 class="text-sm font-semibold text-white tracking wide"></h1>
-                    <h2 class="text-xs text-lightest tracking-wide"></h2>
+    <section class="px-6 py-3 mt-20 text-gray-400 body-font mt-202">
+        <div class="cont">
+            <div class="px-6 py-3">
+                <div class="flex items-center justify-center">
+                    <h1 class="pl-2 text-2xl font-semibold text-white tracking-wider mb-8">
+                        Videos
+                    </h1>
+                </div>
+                <div class="w-full flex flex-wrap justify-center">
+                    <div class="p-2 w-64">
+                        <a href="https://www.youtube.com/shorts/AnHfAJVYfU0" target="_blank">
+                            <div class="bg-light w-full h-auto p-5 rounded-lg shadow-md">
+                                <img src="../assets/courses.png" alt="" class="h-auto w-full shadow mb-2">
+                                <h1 class="text-sm font-semibold text-white tracking wide"></h1>
+                                <h2 class="text-xs text-lightest tracking-wide"></h2>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="p-2 w-64">
+                        <a href="https://www.youtube.com/shorts/cGhI9re2VYo" target="_blank">
+                            <div class="bg-light w-full h-auto p-5 rounded-lg shadow-md">
+                                <img src="../assets/vertical.png" alt="" class="h-auto w-full shadow mb-2">
+                                <h1 class="text-sm font-semibold text-white tracking wide"></h1>
+                                <h2 class="text-xs text-lightest tracking-wide"></h2>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="p-2 w-64">
+                        <a href="https://www.youtube.com/shorts/-3cmrjgYfJM" target="_blank">
+                            <div class="bg-light w-full h-auto p-5 rounded-lg shadow-md">
+                                <img src="../assets/tandems.png" alt="" class="h-auto w-full shadow mb-2">
+                                <h1 class="text-sm font-semibold text-white tracking wide"></h1>
+                                <h2 class="text-xs text-lightest tracking-wide"></h2>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="p-2 w-64">
+                        <a href="https://www.youtube.com/shorts/X9ZrKaJIayY" target="_blank">
+                            <div class="bg-light w-full h-auto p-5 rounded-lg shadow-md">
+                                <img src="../assets/justine.png" alt="" class="h-auto w-full shadow mb-2">
+                                <h1 class="text-sm font-semibold text-white tracking wide"></h1>
+                                <h2 class="text-xs text-lightest tracking-wide"></h2>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-
-            <h2 class="text-sm text-lightest"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem cupiditate, repellendus vel, reiciendis ullam aliquid eum, et deleniti tempora veniam blanditiis fugit sequi porro saepe qui est at? Ipsum, architecto!
-            </h2>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
