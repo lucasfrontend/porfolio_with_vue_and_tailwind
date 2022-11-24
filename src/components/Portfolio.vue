@@ -3,7 +3,7 @@
         <div class="container px-5 mx-auto">
             <div class="flex items-center justify-center">
                     <h1 class="pl-2 text-2xl font-semibold text-white tracking-wider mb-8">
-                        Porfolio
+                        Portfolio
                     </h1>
                 </div>
             <div class="flex flex-wrap -m-4 justify-center"> 
@@ -16,7 +16,7 @@
                             :img="work.img"
                             :alt="work.alt"
                             :title=$t(work.title)
-                            :description="work.description"
+                            :description=$t(work.description)
                             :makew="work.makew"
                             :url="work.url"
                         />
@@ -44,16 +44,16 @@ export default {
                 img: 'https://i.postimg.cc/prb9mRx0/sdchpage.png',
                 title: 'sdchalumnos',
                 alt: '',
-                description: 'Construcción - 2022',
+                description: 'sdchdescrip',
                 url: 'https://chascomus-alumnos.vercel.app/',
                 makew: 'Vuejs',
             },
             {
                 id: 2,
-                img: 'https://i.postimg.cc/VsFLz7JR/jst.png',
+                img: 'https://i.postimg.cc/DZ1mR12z/jst.png',
                 title: 'gob.ar',
                 alt: '',
-                description: 'Government website in english',
+                description: 'jstdescript',
                 url: 'https://so.jst.gob.ar/idiomasJST/',
             },
             {
@@ -61,7 +61,7 @@ export default {
                 img: 'https://i.postimg.cc/8cRvC1gz/seguros.png',
                 title: 'car_insurance',
                 alt: 'Autos',
-                description: 'lorem i... 2019',
+                description: 'cardescript',
                 url: 'https://car-insurance-git-main-barriletefeliz.vercel.app/',
                 makew: 'React',
             },
@@ -70,7 +70,7 @@ export default {
                 img: 'https://i.postimg.cc/MZ7fVKgW/tasks.png',
                 alt: '',
                 title:'task_title',
-                description: 'normalize y skeleton 2019',
+                description: 'taskdescript',
                 url: 'https://administrador-de-tareas.vercel.app/',
                 makew: 'React',
             },
@@ -79,7 +79,7 @@ export default {
                 img: 'https://i.postimg.cc/SsX7mFKn/cryptos.png',
                 alt: '',
                 title: 'cryptos',
-                description: 'lorem ipsu ...',
+                description: 'cryptosdescript',
                 url: 'https://crypyomonedas.vercel.app/',
                 makew: 'React',
             },
@@ -110,20 +110,29 @@ export default {
 {
     "en": {
         "sdchalumnos": "Skydiving students",
-        "sdch-descrip": "En contruccion - 2022",
+        "sdchdescrip": "In construction - 2022",
         "task_title": "Tasks Note",
+        "taskdescript": "",
         "car_insurance": "Car insurance",
+        "cardescript": "",
         "cryptos": "Cryptocurrency converter",
-        "gob.ar": "Government page"
+        "cryptosdescript": "",
+        "gob.ar": "Government page",
+        "jstdescript": "Government website in english"
         
     },
     "es": {
         "sdchalumnos": "Cursos de paracaidismo",
-        "sdch-descrip": "2022",
+        "sdchdescrip": "En contrucción. Maquetado con Tailwind.",
         "task_title": "Anotador de tareas",
+        "taskdescript": "Maquetado con normalize y skeleton.",
         "car_insurance": "Cotizador de Seguros",
+        "cardescript": "Proyecto maquetado con Normalize y Skeleton.",
         "cryptos": "Convertidor de criptomonedas",
-        "gob.ar": "Web JST"
+        "cryptosdescript": "Maquetado con Bootswatch, Normalize y Emotion.",
+        "gob.ar": "Web JST",
+        "jstdescript": "Argentina.gob.ar, sitio traducido al inglés."
+
     }
 }
 </i18n>

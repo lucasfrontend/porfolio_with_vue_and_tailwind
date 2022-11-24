@@ -2,11 +2,10 @@
     <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden bg-light">
         <img :src='img' :alt='alt' class="lg:h-48 md:h-36 w-full object-cover object-center transition-all duration-300 cursor-pointer">
         <div class="p-6">
-
-            <h1 class="title-font text-lg font-medium text-white mb-3">{{ title }}</h1>
-            <p class="leading-relaxed mb-3">{{ description }}</p>
+            <h3 class="title-font text-base font-medium text-white mb-3 break-words">{{ title }}</h3>
+            <p class="leading-relaxed mb-3 text-xs break-words">{{ description }}</p>
             <div class="flex items-center flex-wrap ">
-            <a :href='url' target="_blank" class="cursor-pointer text-blue-400 inline-flex items-center md:mb-2 lg:mb-0">Go
+            <a :href='url' target="_blank" class="cursor-pointer text-blue-400 inline-flex items-center md:mb-2 lg:mb-0">{{ $t('portfolio.go')}}
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M5 12h14"></path>
                 <path d="M12 5l7 7-7 7"></path>
@@ -26,7 +25,6 @@
             </div>
         </div>
     </div>
-    <img src="" alt="">
 </template>
 
 <script>

@@ -15,8 +15,8 @@
   "about": {
     "idesign": "Diseño y desarrollo software e interfaces de usuario. Me encanta programar sitios adaptables y aplicaciones móviles.",
     "download": "Descargar CV",
-    "birthday": "Fecha de nacimiento:",
-    "july": "9 de Julio de 1986",
+    "birthday": "Edad:",
+    "july": "36 años.",
     "adress": "Dirección:",
     "available": "Disponible.",
     "phone": "Teléfono",
@@ -33,6 +33,9 @@
     "dev-sdch": "Editor audiovisual y Programador web",
     "dev-sdch-": "Animaciones con After Effects y edición con Premiere Pro de videos para redes sociales. Desarrollo de web sites.",
     "coderhouse": "bla bla {linkcoder} 2022 - Present"
+  },
+  "portfolio": {
+    "go": "Ir"
   },
   "contact": {
     "contactme": "¡Escribime!",

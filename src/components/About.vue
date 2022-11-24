@@ -22,9 +22,11 @@
       <div class="">
         <div class="mt-14">
           <h3 class="text-white mt-5 text-2xl font-medium tracking-tight lg:p-0 mb-6">Lucas Sebastian Martinez</h3>
-          <div class="flex mb-4">
-            <p class="text-white flex">{{ $t('about.birthday')}} <span class="text-lightest text-lightest font-code ml-2">{{ $t('about.july')}}</span></p>
+          <!--
+          <div class="flex mb-4 ">
+            <p class="text-white flex break-normal">{{ $t('about.birthday')}} <span class="text-lightest font-code ml-2">{{ $t('about.july')}}</span></p>
         </div>
+        -->
         <div class="flex mb-4">
             <p class="text-white flex">{{ $t('about.adress')}}<span class="text-lightest font-code ml-2">Recoleta, BsAs. ARG</span></p>
         </div>
