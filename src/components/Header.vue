@@ -82,18 +82,3 @@ export default {
 
 }
 </script>
-
-<style>
-
-.flag {
-  min-width: 1.6em;
-  min-height: 1em;
-  background: rgb(240, 7, 7);
-}
-
-.spain {
-  box-shadow: 0 .33em red inset,
-              0 .69em yellow inset,
-              0 1em red inset;
-}
-</style>

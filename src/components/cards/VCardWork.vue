@@ -2,7 +2,7 @@
     <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden bg-light">
         <img :src='img' :alt='alt' class="lg:h-48 md:h-36 w-full object-cover object-center transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
         <div class="p-6">
-            <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">React</h2>
+
             <h1 class="title-font text-lg font-medium text-white mb-3">{{ title }}</h1>
             <p class="leading-relaxed mb-3">{{ description }}</p>
             <div class="flex items-center flex-wrap ">
@@ -13,15 +13,15 @@
                 </svg>
             </a>
             <span class="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
-                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                <circle cx="12" cy="12" r="3"></circle>
-                </svg>1.2K
+                {{makew}}
             </span>
             <span class="text-gray-500 inline-flex items-center leading-none text-sm">
-                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>6
+                <div v-if="(makew === 'React')">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/react.svg" alt="ReactJs" class="icon"/>
+                </div>
+                <div v-if="(makew === 'Vuejs')">
+                    <img src="https://vuejs.org/images/logo.png" alt="VueJs" class="icon"/>
+                </div>
             </span>
             </div>
         </div>
@@ -37,7 +37,15 @@ export default {
         alt: String,
         description: String,
         img: String,
+        makew: String
     }
 }
 
 </script>
+
+<style>
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+</style>

@@ -12,6 +12,7 @@
                             :alt="work.alt"
                             :title=$t(work.title)
                             :description="work.description"
+                            :makew="work.makew"
                         />
                     </div>
                 </transition-group>           
@@ -34,11 +35,20 @@ export default {
         works: [
             {
                 id: 1,
+                img: 'https://i.postimg.cc/prb9mRx0/sdchpage.png',
+                title: 'sdchalumnos',
+                alt: '',
+                description: '',
+                url: 'https://so.jst.gob.ar/idiomasJST/',
+                makew: 'Vuejs',
+            },
+            {
+                id: 2,
                 img: 'https://i.postimg.cc/VsFLz7JR/jst.png',
                 title: 'gob.ar',
                 alt: '',
                 description: 'Government website in english',
-                url: 'https://so.jst.gob.ar/idiomasJST/'
+                url: 'https://so.jst.gob.ar/idiomasJST/',
             },
             {
                 id: 2,
@@ -46,7 +56,8 @@ export default {
                 title: 'car_insurance',
                 alt: 'Autos',
                 description: 'lorem ipsu bla bla bla',
-                url: 'https://car-insurance-git-main-barriletefeliz.vercel.app/'
+                url: 'https://car-insurance-git-main-barriletefeliz.vercel.app/',
+                makew: 'React',
             },
             {
                 id: 3,
@@ -54,7 +65,8 @@ export default {
                 alt: '',
                 title:'task_title',
                 description: 'normalize y skeleton',
-                url: 'https://administrador-de-tareas.vercel.app/'
+                url: 'https://administrador-de-tareas.vercel.app/',
+                makew: 'React',
             },
             {
                 id: 4,
@@ -62,7 +74,8 @@ export default {
                 alt: '',
                 title: 'cryptos',
                 description: 'lorem ipsu bla bla bla',
-                url: 'https://crypyomonedas.vercel.app/'
+                url: 'https://crypyomonedas.vercel.app/',
+                makew: 'React',
             },
             
         ]
@@ -90,6 +103,7 @@ export default {
 <i18n>
 {
     "en": {
+        "sdchalumnos": "Web for skydiving students",
         "task_title": "Tasks Note",
         "car_insurance": "Car insurance",
         "cryptos": "Cryptocurrency converter",
@@ -97,6 +111,7 @@ export default {
         
     },
     "es": {
+        "sdchalumnos": "Paracaidismo Chascomús, Web para alumnos en curso",
         "task_title": "Anotador de tareas",
         "car_insurance": "Cotizador de Seguros",
         "cryptos": "Convertidor de criptomonedas",
