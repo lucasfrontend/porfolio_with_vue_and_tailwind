@@ -3,6 +3,9 @@
     <div class="sidebar-space">
     </div>
     <div class="w-full min-h-screen">
+      <div class="display-none">
+        <HeaderBg />
+      </div>
       <About />
     </div>
 
@@ -12,12 +15,21 @@
 <script>
 // @ is an alias to /src
 import About from '@/components/About.vue'
+import HeaderBg from '@/components/HeaderBg.vue'
 
 export default {
   name: 'HeaderView',
   components: {
-      About
+    HeaderBg,
+    About
   }
 }
 </script>
   
+<style>
+@media (min-width: 1024px) {
+  .display-none {
+    display: none;
+  }
+}
+</style>
