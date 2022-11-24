@@ -3,7 +3,7 @@
         <div @click="setIsClose" :class="isOpen ? 'overlay open' : 'overlay'"></div>
     
         <button @click="setIsOpen" class="sidebar-btn">
-          <font-awesome-icon icon="fa-sharp fa-bars" class="menu-btn m-3 text-3xl text-lightest"/>
+          <font-awesome-icon icon="fa-sharp fa-bars" class="menu-btn m-0 text-3xl text-lightest"/>
         </button>
         
         <aside :class="isOpen ? 'sidebar open' : 'sidebar'">

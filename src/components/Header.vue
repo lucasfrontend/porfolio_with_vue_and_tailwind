@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-end fixed z-10 top-0 right-0">
-    <div class="px-5 py-4">  
+  <div class="flex justify-end fixed z-20 top-0 right-0">
+    <div class="px-5 py-5">  
       <select id="locale" v-model="$i18n.locale"
         class=" form-select appearance-none
         flex

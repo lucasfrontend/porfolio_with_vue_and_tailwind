@@ -42,7 +42,7 @@
     }
   }
   .sidebar-btn {
-    @apply text-xl fixed top-6 left-5 flex justify-center items-center;
+    @apply text-xl fixed top-5 left-4 flex justify-center items-center;
     width: 35px;
     height: 35px;
     z-index: 100;
