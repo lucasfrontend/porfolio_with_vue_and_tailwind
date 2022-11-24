@@ -123,7 +123,7 @@ export default {
     },
     "es": {
         "sdchalumnos": "Cursos de paracaidismo",
-        "sdchdescrip": "En contrucción. Maquetado con Tailwind.",
+        "sdchdescrip": "Sitio para alumnos, en contrucción. Maquetado con Tailwind.",
         "task_title": "Anotador de tareas",
         "taskdescript": "Maquetado con normalize y skeleton.",
         "car_insurance": "Cotizador de Seguros",
