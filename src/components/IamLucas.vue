@@ -17,7 +17,7 @@ export default {
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ["Frontend Developer", "App Developer", "Video Editor"],
+        typeArray: ["Web Developer", "App Developer", "Video Editor"],
         typingSpeed: 100,
         erasingSpeed: 50,
         newTextDelay: 500,
