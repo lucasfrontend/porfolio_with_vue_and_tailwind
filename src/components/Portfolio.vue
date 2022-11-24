@@ -123,7 +123,7 @@ export default {
         "task_title": "Anotador de tareas",
         "car_insurance": "Cotizador de Seguros",
         "cryptos": "Convertidor de criptomonedas",
-        "gob.ar": "Web del gobierno"
+        "gob.ar": "Web JST"
     }
 }
 </i18n>

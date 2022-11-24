@@ -1,6 +1,6 @@
 <template>
     <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden bg-light">
-        <img :src='img' :alt='alt' class="lg:h-48 md:h-36 w-full object-cover object-center transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+        <img :src='img' :alt='alt' class="lg:h-48 md:h-36 w-full object-cover object-center transition-all duration-300 cursor-pointer">
         <div class="p-6">
 
             <h1 class="title-font text-lg font-medium text-white mb-3">{{ title }}</h1>

@@ -8,45 +8,18 @@
                     </h1>
                 </div>
                 <div class="w-full flex flex-wrap justify-center">
-                    <div class="p-2 w-64">
-                        <a href="https://www.youtube.com/shorts/AnHfAJVYfU0" target="_blank">
-                            <div class="bg-light w-full h-auto p-5 rounded-lg shadow-md">
-                                <img src="../assets/courses.png" alt="" class="h-auto w-full shadow mb-2">
-                                <h1 class="text-sm font-semibold text-white tracking wide"></h1>
-                                <h2 class="text-xs text-lightest tracking-wide"></h2>
-                            </div>
-                        </a>
-                    </div>
-        
-                    <div class="p-2 w-64">
-                        <a href="https://www.youtube.com/shorts/cGhI9re2VYo" target="_blank">
-                            <div class="bg-light w-full h-auto p-5 rounded-lg shadow-md">
-                                <img src="../assets/vertical.png" alt="" class="h-auto w-full shadow mb-2">
-                                <h1 class="text-sm font-semibold text-white tracking wide"></h1>
-                                <h2 class="text-xs text-lightest tracking-wide"></h2>
-                            </div>
-                        </a>
-                    </div>
-        
-                    <div class="p-2 w-64">
-                        <a href="https://www.youtube.com/shorts/-3cmrjgYfJM" target="_blank">
-                            <div class="bg-light w-full h-auto p-5 rounded-lg shadow-md">
-                                <img src="../assets/tandems.png" alt="" class="h-auto w-full shadow mb-2">
-                                <h1 class="text-sm font-semibold text-white tracking wide"></h1>
-                                <h2 class="text-xs text-lightest tracking-wide"></h2>
-                            </div>
-                        </a>
-                    </div>
-                    
-                    <div class="p-2 w-64">
-                        <a href="https://www.youtube.com/shorts/X9ZrKaJIayY" target="_blank">
-                            <div class="bg-light w-full h-auto p-5 rounded-lg shadow-md">
-                                <img src="../assets/justine.png" alt="" class="h-auto w-full shadow mb-2">
-                                <h1 class="text-sm font-semibold text-white tracking wide"></h1>
-                                <h2 class="text-xs text-lightest tracking-wide"></h2>
-                            </div>
-                        </a>
-                    </div>
+                    <transition-group appear @before-enter="beforeEnter" @enter="enter">
+                        <div class="p-2 w-64"
+                            v-for="(video, index) in videos" 
+                                :data-index="index" 
+                                :key="video.id">
+                                    <v-card-video
+                                        :img="video.img"
+                                        :alt="video.alt"
+                                        :url="video.url"
+                                    />
+                        </div>
+                </transition-group>
                 </div>
             </div>
         </div>
@@ -54,18 +27,23 @@
 </template>
 
 <script>
+import gsap from 'gsap'
+import VCardVideo from './cards/VCardVideo.vue';
 export default {
   name: 'Videos',
+  components: {
+      VCardVideo
+  },
   data() {
     return {
         videos: [
             {
                 id: 1,
-                img: 'https://i.postimg.cc/x8y1N5jK/sports.png',
+                img: 'https://i.postimg.cc/MTgyD3Mn/vertical.png',
                 title: 'sport',
                 alt: '',
                 description: '',
-                url: ''
+                url: 'https://www.youtube.com/shorts/cGhI9re2VYo'
             },
             {
                 id: 2,
@@ -73,7 +51,7 @@ export default {
                 title: 'Tandems',
                 alt: '',
                 description: '',
-                url: ''
+                url: 'https://www.youtube.com/shorts/-3cmrjgYfJM'
             },
             {
                 id: 3,
@@ -81,7 +59,7 @@ export default {
                 title: 'courses',
                 alt: '',
                 description: '',
-                url: ''
+                url: 'https://www.youtube.com/shorts/AnHfAJVYfU0'
             },
             {
                 id: 4,
@@ -89,11 +67,26 @@ export default {
                 title: 'passengers',
                 alt: '',
                 description: '',
-                url: ''
+                url: 'https://www.youtube.com/shorts/X9ZrKaJIayY'
             }    
         ]
     }
   },
+  methods: {
+    beforeEnter(el){
+        el.style.opacity = 0;
+        el.style.transform = 'transitionY(60px)'
+    },
+    enter(el){
+        gsap.to(el, {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            delay: el.dataset.index * 0.2,
+        }
+      )
+    }
+  }
 
 }
 </script>
