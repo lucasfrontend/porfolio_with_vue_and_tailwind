@@ -7,7 +7,7 @@
           <h1 class="flex flex-col items-center justify-center text-3xl mt-8">{{ $t('about.idesign')}}</h1>
         </div>
       </header>
-      <footer class="grid grid-col-6 sticky top-0 left-0 pt-6 pr-6">
+      <footer class="grid grid-col-6 sticky top-0 left-0 pt-9 pr-6">
         <div class="flex flex-col">
           <div class="flex justify-end">
               <a href="https://raw.githubusercontent.com/lucasfrontend/porfolio_with_vue_and_tailwind/main/src/assets/download/CV_Martinez_Lucas.pdf" download="cv_lucas.pdf" class="bg-gray-300 hover:bg-lightest text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
