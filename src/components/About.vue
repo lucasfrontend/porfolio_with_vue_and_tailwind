@@ -10,7 +10,7 @@
       <footer class="grid grid-col-6 sticky top-0 left-0 pt-6 pr-6">
         <div class="flex flex-col">
           <div class="flex justify-end">
-              <a href="../assets/download/CV_Lucas_Martinez.pdf" download="cv_lucas.pdf" class="bg-gray-300 hover:bg-lightest text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+              <a href="https://raw.githubusercontent.com/lucasfrontend/porfolio_with_vue_and_tailwind/main/src/assets/download/CV_Martinez_Lucas.pdf" download="cv_lucas.pdf" class="bg-gray-300 hover:bg-lightest text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                 <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
                 <span>{{ $t('about.download')}}</span>
               </a>
@@ -118,8 +118,8 @@
                     </a>
                     {{ $t('about.2020')}}
                     <p class="text-gray-200 mt-2">{{ $t('about.dev-sdch')}}</p>
+                    <p class="mt-2 text-gray-300 text-sm mb-20 font-code">{{ $t('about.dev-sdch-')}}</p>
                   </p>
-                  <p class="mt-2 text-gray-300 text-sm mb-20 font-code">{{ $t('about.dev-sdch-')}}</p>
                 </div>
               </li>
               <li class="relative flex items-baseline gap-6 pb-5">
