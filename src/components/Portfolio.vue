@@ -103,7 +103,7 @@ export default {
 <i18n>
 {
     "en": {
-        "sdchalumnos": "Web for skydiving students",
+        "sdchalumnos": "Skydiving students",
         "task_title": "Tasks Note",
         "car_insurance": "Car insurance",
         "cryptos": "Cryptocurrency converter",
@@ -111,7 +111,7 @@ export default {
         
     },
     "es": {
-        "sdchalumnos": "Paracaidismo Chascomús, Web para alumnos en curso",
+        "sdchalumnos": "Cursos de paracaidismo",
         "task_title": "Anotador de tareas",
         "car_insurance": "Cotizador de Seguros",
         "cryptos": "Convertidor de criptomonedas",
