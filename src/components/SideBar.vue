@@ -103,10 +103,7 @@
             </a>
             </li>
         </ul>
-        -->
-
-      35 horas de full flow state, sin dormir, transcribiendo este coso echo en js vainilla y boostrap a vuejs con tailwind.
-       
+        -->       
         </aside>
     </div>
 </template>

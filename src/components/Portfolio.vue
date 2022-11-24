@@ -13,6 +13,7 @@
                             :title=$t(work.title)
                             :description="work.description"
                             :makew="work.makew"
+                            :url="work.url"
                         />
                     </div>
                 </transition-group>           
@@ -38,8 +39,8 @@ export default {
                 img: 'https://i.postimg.cc/prb9mRx0/sdchpage.png',
                 title: 'sdchalumnos',
                 alt: '',
-                description: '',
-                url: 'https://so.jst.gob.ar/idiomasJST/',
+                description: 'sdch-descrip',
+                url: 'https://chascomus-alumnos.vercel.app/',
                 makew: 'Vuejs',
             },
             {
@@ -104,6 +105,7 @@ export default {
 {
     "en": {
         "sdchalumnos": "Skydiving students",
+        "sdch-descrip": "En contruccion - 2022",
         "task_title": "Tasks Note",
         "car_insurance": "Car insurance",
         "cryptos": "Cryptocurrency converter",
@@ -112,6 +114,7 @@ export default {
     },
     "es": {
         "sdchalumnos": "Cursos de paracaidismo",
+        "sdch-descrip": "2022",
         "task_title": "Anotador de tareas",
         "car_insurance": "Cotizador de Seguros",
         "cryptos": "Convertidor de criptomonedas",
