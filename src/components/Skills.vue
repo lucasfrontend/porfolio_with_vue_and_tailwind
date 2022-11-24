@@ -109,21 +109,21 @@ export default {
             },
             {
                 id: 8,
+                img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/npm.svg',
+                title: 'NPM',
+                alt: 'NPM logo'
+            },
+            {
+                id: 9,
                 img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/git.png',
                 title: 'GIT',
                 alt: 'GIT logo'
             },
             {
-                id: 9,
+                id: 10,
                 img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/github-octocat.svg',
                 title: 'Github',
                 alt: 'Github logo'
-            },
-            {
-                id: 10,
-                img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/npm.svg',
-                title: 'NPM',
-                alt: 'NPM logo'
             },
             {
                 id: 11,
