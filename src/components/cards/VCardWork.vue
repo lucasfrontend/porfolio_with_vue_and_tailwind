@@ -20,7 +20,7 @@
                     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/react.svg" alt="ReactJs" class="icon"/>
                 </div>
                 <div v-if="(makew === 'Vuejs')">
-                    <img src="https://vuejs.org/images/logo.png" alt="VueJs" class="icon"/>
+                    <img src="https://vuejs.org/images/logo.png" alt="VueJs" class="vue"/>
                 </div>
             </span>
             </div>
@@ -41,12 +41,16 @@ export default {
         url: String
     }
 }
-
 </script>
 
 <style>
 .icon {
     width: 2rem;
     height: 2rem;
+}
+
+.vue {
+    width: 1rem;
+    height: 1rem;
 }
 </style>
