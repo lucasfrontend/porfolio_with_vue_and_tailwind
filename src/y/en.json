@@ -41,7 +41,8 @@
     "contactme": "Contact Me",
     "yourname": "Your name",
     "youremail": "Your email",
-    "writeme": "Write me"
+    "writeme": "Write me",
+    "send": "Send"
   },
   "404": {
     "notfound": "Not Found",

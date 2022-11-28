@@ -41,7 +41,8 @@
     "contactme": "¡Escribime!",
     "yourname": "Nombre",
     "youremail": "Correo",
-    "writeme": "Mensaje"
+    "writeme": "Mensaje",
+    "send": "Enviar"
   },
   "404": {
     "notfound": "Servidor no encontrado",
