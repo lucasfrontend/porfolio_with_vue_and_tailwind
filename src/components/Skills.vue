@@ -3,7 +3,7 @@
         <HeaderBg />
         <div class="container flex items-center justify-center">
             <h1 class="pl-2 text-2xl font-semibold text-white tracking-wider mb-8 flex justifiy-center">
-                Porfolio
+                Skills
             </h1>
         </div>
         <div class="w-full m-auto flex flex-wrap justify-center">
