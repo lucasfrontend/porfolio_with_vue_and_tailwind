@@ -1,6 +1,8 @@
 <template>
     <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden bg-light">
-        <img :src='img' :alt='alt' class="lg:h-48 md:h-36 w-full object-cover object-center transition-all duration-300 cursor-pointer">
+        <a :href='url' target="_blank" class="cursor-pointer">
+            <img :src='img' :alt='alt' class="lg:h-48 md:h-36 w-full object-cover object-center transition-all duration-300 cursor-pointer">
+        </a>
         <div class="p-6">
             <h3 class="title-font text-base font-medium text-white mb-3 break-words">{{ title }}</h3>
             <p class="leading-relaxed mb-3 text-xs break-words">{{ description }}</p>
