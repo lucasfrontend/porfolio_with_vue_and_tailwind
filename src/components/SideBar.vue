@@ -20,9 +20,6 @@
         <div class="mx-2">
             <router-link class="" to="/">
                 <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
-                  <!--  
-                  <font-awesome-icon icon="fa-solid fa-home" class="mr-3"/>
-                  -->
                   Home
                 </button>
             </router-link>
@@ -30,44 +27,20 @@
         <div class="mx-2">
             <router-link class="" to="/about">
                 <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
-                  <!--
-                    <font-awesome-icon icon="fa-solid fa-address-card" class="mr-3" />
-                  -->
-                 
                   {{ $t('sidebar.aboutme')}}
                 </button>
             </router-link>
         </div>
         <div class="mx-2">
             <router-link class="" to="/skills">
-                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
-                  <!--  
-                  <font-awesome-icon icon="fa-solid fa-list" class="mr-3"/>
-                  -->
-                 
+                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">   
                   {{ $t('sidebar.skills')}}
                 </button>
             </router-link>
         </div>
-
-        <!--
-        <div class="mx-2">
-            <router-link class="" to="/page2">
-                <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
-                  <font-awesome-icon icon="fa-solid fa-list" class="mr-3"/>
-                  
-                  Service
-                </button>
-              </router-link>
-            </div>
-          -->
         <div class="mx-2">
             <router-link class="" to="/portfolio">
                 <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
-                  <!--  
-                  <font-awesome-icon icon="fa-solid fa-list" class="mr-3"/>
-                   -->
-                  
                    Porfolio
                 </button>
             </router-link>
@@ -82,24 +55,10 @@
         <div class="mx-2 mb-4">
             <router-link class="" to="/contacto">
                 <button class="w-full rounded px-3 py-2 flex items-center justify-start text-sm font-medium uppercase text-sm text-white hover:bg-light">
-                  <!--  
-                  <font-awesome-icon icon="fa-solid fa-list" class="mr-3"/>
-                  -->
-                  
                   {{ $t('sidebar.contact')}}
                 </button>
             </router-link>
         </div>
-        <!--
-        <ul class="menu">
-            <li @click="onClick(index)" v-for="(item, index) in list" :key="item" :class="index === active ? 'menu__list active' : 'menu__list'">
-            <a href="#" class="menu__link">
-                <div v-html="item.svg"></div>
-                <div class="menu__title">{{item.name}}</div>
-            </a>
-            </li>
-        </ul>
-        -->       
         </aside>
     </div>
 </template>

@@ -16,8 +16,8 @@ export default {
 .header-bg {
   background-color: #776254;
   backdrop-filter: blur(15px);
-background: #1212124f;
-min-width: 100%;
-min-height: 4.8rem;
+  background: #1212124f;
+  min-width: 100%;
+  min-height: 4.8rem;
 }
 </style>

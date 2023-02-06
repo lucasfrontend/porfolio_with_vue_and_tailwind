@@ -20,14 +20,6 @@
         <option value="es">🇪🇸&emsp; {{ $t('t.en')}} </option>
         <option value="en">🇺🇸&emsp; {{ $t('t.es')}}</option>
         <span data-flag="US"></span>
-        <!-- 
-          <option v-for="locale in locales" 
-          :key="locale.key" 
-          :value="locale.key"
-          > 
-          <div class="">ES{{ locale.flag }} - {{ locale.label }} 🇪🇸&emsp;</div>
-        </option>
-        -->
       </select>
     </div>
   </div>
