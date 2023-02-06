@@ -100,22 +100,6 @@
                 <div>
                   <p class="text-sm text-gray-200">
                     <a href="https://www.argentina.gob.ar/jst" target="_blank">
-                      <span class="text-blue-300">Sooft Technology</span>
-                    </a>
-                    {{ $t('about.2023')}}</p>
-                    <p class="text-gray-200 mt-2">{{ $t('about.dev-sooft')}}</p>
-                  <p class="mt-2 text-gray-300 text-sm mb-20 font-code">{{ $t('about.sooft-description')}}</p>
-                </div>
-              </li>
-              <li class="relative flex items-baseline gap-6">
-                <div class="before:absolute before:left-[5.5px] before:h-full before:w-[2px] before:bg-gray-400">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="bi bi-circle-fill fill-gray-400" viewBox="0 0 16 16">
-                    <circle cx="8" cy="8" r="8" />
-                  </svg>
-                </div>
-                <div>
-                  <p class="text-sm text-gray-200">
-                    <a href="https://www.argentina.gob.ar/jst" target="_blank">
                       <span class="text-blue-300">{{ $t('about.jst')}}</span>
                     </a>
                     {{ $t('about.2019')}}</p>

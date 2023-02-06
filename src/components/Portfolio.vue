@@ -48,7 +48,6 @@ export default {
                 url: 'https://chascomus-alumnos.vercel.app/',
                 makew: 'Vuejs',
             },
-            /*
             {
                 id: 2,
                 img: 'https://i.postimg.cc/DZ1mR12z/jst.png',
@@ -57,7 +56,6 @@ export default {
                 description: 'jstdescript',
                 url: 'https://so.jst.gob.ar/idiomasJST/',
             },
-            */
             {
                 id: 2,
                 img: 'https://i.postimg.cc/8cRvC1gz/seguros.png',
