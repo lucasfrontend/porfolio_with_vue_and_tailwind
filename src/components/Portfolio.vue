@@ -50,14 +50,6 @@ export default {
             },
             {
                 id: 2,
-                img: 'https://i.postimg.cc/DZ1mR12z/jst.png',
-                title: 'gob.ar',
-                alt: '',
-                description: 'jstdescript',
-                url: 'https://so.jst.gob.ar/idiomasJST/',
-            },
-            {
-                id: 2,
                 img: 'https://i.postimg.cc/8cRvC1gz/seguros.png',
                 title: 'car_insurance',
                 alt: 'Autos',
@@ -117,7 +109,6 @@ export default {
         "cardescript": "",
         "cryptos": "Cryptocurrency converter",
         "cryptosdescript": "",
-        "gob.ar": "Government page",
         "jstdescript": "Government website in english"
         
     },
@@ -130,7 +121,6 @@ export default {
         "cardescript": "Proyecto maquetado con Normalize y Skeleton.",
         "cryptos": "Convertidor de criptomonedas",
         "cryptosdescript": "Maquetado con Bootswatch, Normalize y Emotion.",
-        "gob.ar": "Web JST",
         "jstdescript": "Argentina.gob.ar, sitio traducido al inglés."
 
     }
