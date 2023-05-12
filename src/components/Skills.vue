@@ -97,48 +97,54 @@ export default {
             },
             {
                 id: 6,
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYiwJXyAO7Xnf4UZwEVcJ5pofgbzjlAGXm-6kMIxagmLN5b8szeSunn2kg_LlXMcotoQ&usqp=CAU',
+                title: 'Vuetify',
+                alt: 'Vuetify logo'
+            },
+            {
+                id: 7,
                 img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/node.svg',
                 title: 'NODEjs',
                 alt: 'NODEjs logo'
             },
             {
-                id: 7,
+                id: 8,
                 img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/json.svg',
                 title: 'JSON',
                 alt: 'JSON logo'
             },
             {
-                id: 8,
+                id: 9,
                 img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/npm.svg',
                 title: 'NPM',
                 alt: 'NPM logo'
             },
             {
-                id: 9,
+                id: 10,
                 img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/git.png',
                 title: 'GIT',
                 alt: 'GIT logo'
             },
             {
-                id: 10,
+                id: 11,
                 img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1116997/github-octocat.svg',
                 title: 'Github',
                 alt: 'Github logo'
             },
             {
-                id: 11,
+                id: 12,
                 img: 'https://storage.googleapis.com/cms-storage-bucket/6a07d8a62f4308d2b854.svg',
                 title: 'Flutter',
                 alt: 'Flutter logo'
             },
             {
-                id: 12,
+                id: 13,
                 img: 'https://cdn.worldvectorlogo.com/logos/python-5.svg',
                 title: 'Python',
                 alt: 'Py logo'
             },
             {
-                id: 13,
+                id: 14,
                 img: 'https://static.djangoproject.com/img/logo-django.42234b631760.svg',
                 title: 'Django',
                 alt: 'Django logo'
