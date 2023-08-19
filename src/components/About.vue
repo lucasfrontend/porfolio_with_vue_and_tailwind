@@ -29,8 +29,7 @@
             <p class="text-white flex">Freelance: <span class="text-lightest font-code ml-2">{{ $t('about.available')}}</span></p>
         </div>
         <div class="flex mb-4">
-          <p class="text-white flex flex-inline">{{ $t('about.phone')}}<span class="text-lightest font-code ml-2">+054 11 2386 8020 <a href="https://wa.me/541123868020?text=Hi%20Lucas!" class="cursor-pointer font-code ml-2 text-green"><font-awesome-icon icon="text-green fa-brands fa-whatsapp" /></a></span></p>
-        </div>
+          <p class="text-white flex flex-inline">{{ $t('about.phone')}}<span class="text-lightest font-code ml-2">+054 11 2386 8020 <a href="https://wa.me/541123868020?text=Hi%20Lucas!" target="_blank" rel="noopener noreferrer" class="cursor-pointer font-code ml-2 text-green"><font-awesome-icon icon="text-green fa-brands fa-whatsapp" /></a></span></p>        </div>
         <div class="flex mb-6">
           <p class="text-white flex">email: <span><a href="mailto:lucasfrontenddev@gmail.com" class="text-blue-300 cursor-pointer font-code ml-2">lucasfrontenddev@gmail.com</a></span></p>
       </div>
