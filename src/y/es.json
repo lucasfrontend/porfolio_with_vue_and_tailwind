@@ -28,10 +28,10 @@
     "dev": "Desarrollador web y de aplicaciones",
     "jst-description": "Desarrollo y mantenimiento del sistema de gestión de expedientes de la organización. Desarrollo de versión bilingüe de la plataforma del gobierno. Desarrollo de aplicaciones con Flutter.",
     "sdch": "Paracaidismo Chascomús",
-    "2019": "2019 - 2022",
+    "2019": "2020 - 2022",
     "2020": "2021 - Presente",
-    "dev-sdch": "Editor audiovisual y Programador web",
-    "dev-sdch-": "Desarrollo del sistema de gestión de vuelos y plazas. Página web para alumnos. Animaciones con After Effects y edición con Premiere Pro de videos para redes sociales.",
+    "dev-sdch": "Programador de software",
+    "dev-sdch-": "Creación y desarrollo de una PWA (Diseño y codificación tanto del frontend como del backend). Sistema de gestión de vuelos, cobros, pago a pilotos, instructores, cuenta corriente de usuarios en pesos y en dolares, recuento de saltos de usuarios, seguimiento del estado del equipamiento. Alquileres. Gestión de plegados. Venta de tickets de saltos de bautismo, escuela, cursos.",
     "coderhouse": "bla bla {linkcoder} 2022 - Present"
   },
   "portfolio": {

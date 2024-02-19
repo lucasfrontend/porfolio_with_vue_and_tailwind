@@ -28,10 +28,10 @@
     "dev": "Web and App developer.",
     "jst-description": "Development and maintenance of the organization's records management system. Localization of the government platform. Application development with Flutter.",
     "sdch": "Skydive Chascomús",
-    "2019": "2019 - 2022",
+    "2019": "2020 - 2022",
     "2020": "2021 - Present",
-    "dev-sdch": "Video editor and Web developer",
-    "dev-sdch-": "Website for students. System of flights and slots. Animations with After Effects and editing with Premiere Pro of videos for social networks. Web development.",
+    "dev-sdch": "Software developer",
+    "dev-sdch-": "Creation and development of a PWA (Design and coding of both frontend and backend). Flight management system, including bookings, payments to pilots and instructors, user accounts in pesos and dollars, jump counts for users, equipment status tracking. Rentals management. Folding management. Sale of tandem jump tickets, school, courses, etc.",
     "coderhouse": "bla bla {linkcoder} 2022 - Present"
   },
   "portfolio": {
