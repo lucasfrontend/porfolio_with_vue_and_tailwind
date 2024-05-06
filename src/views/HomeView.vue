@@ -13,7 +13,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import IamLucas from '@/components/IamLucas.vue'
 import SocialNet from '@/components/SocialNet.vue'
 

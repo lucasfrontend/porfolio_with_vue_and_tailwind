@@ -41,12 +41,12 @@ export default {
         works: [
             {
                 id: 1,
-                img: 'https://i.postimg.cc/prb9mRx0/sdchpage.png',
-                title: 'sdchalumnos',
+                img: 'https://i.postimg.cc/zX8bQnF5/grafico-acciones.png',
+                title: 'Acciones',
                 alt: '',
-                description: 'sdchdescrip',
-                url: 'https://chascomus-alumnos.vercel.app/',
-                makew: 'Vuejs',
+                description: 'sctocksdescript',
+                url: 'https://realtime-stock-grapher.vercel.app/',
+                makew: 'React',
             },
             {
                 id: 2,
@@ -74,6 +74,15 @@ export default {
                 description: 'cryptosdescript',
                 url: 'https://crypyomonedas.vercel.app/',
                 makew: 'React',
+            },
+            {
+                id: 5,
+                img: 'https://i.postimg.cc/prb9mRx0/sdchpage.png',
+                title: 'sdchalumnos',
+                alt: '',
+                description: 'sdchdescrip',
+                url: 'https://chascomus-alumnos.vercel.app/',
+                makew: 'Vuejs',
             },
             
         ]
@@ -107,6 +116,7 @@ export default {
         "taskdescript": "",
         "car_insurance": "Car insurance",
         "cardescript": "",
+        "sctocksdescript": "Realtime Stock Grapher",
         "cryptos": "Cryptocurrency converter",
         "cryptosdescript": "",
         "jstdescript": "Government website in english"
@@ -119,6 +129,7 @@ export default {
         "taskdescript": "Maquetado con normalize y skeleton.",
         "car_insurance": "Cotizador de Seguros",
         "cardescript": "Proyecto maquetado con Normalize y Skeleton.",
+        "sctocksdescript": "buscador de acciones con React",
         "cryptos": "Convertidor de criptomonedas",
         "cryptosdescript": "Maquetado con Bootswatch, Normalize y Emotion.",
         "jstdescript": "Argentina.gob.ar, sitio traducido al inglés."
